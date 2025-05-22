@@ -1,5 +1,7 @@
 # Unified Analysis of Continuous Weak Features Learning with Applications to Learning from Missing Data
 
+This repository contains the scripts for the experiments, as presented in the paper "Unified Analysis of Continuous Weak Features Learning with Applications to Learning from Missing Data", by Kosuke Sugiyama and Masato Uchida (ICML 2025)
+
 ## requirements
 
 * Python: 3.9.14
