@@ -1,0 +1,44 @@
+
+dataset_name: mv
+main_dir: ../
+data_dir: ./data
+output_dir: ../output
+
+weaken_mode: missing
+weak_cols:
+  - x9
+  - x10
+  - x2
+  - x1
+  - x5
+  - x4
+
+
+sample_size: -1
+test_rate: 0.5
+test_size_for_loop: -1
+
+
+sm_k: 10
+sm_prop_latent: 0.5
+
+
+pred_arch: mlp
+pred_loss: logistic
+hd: 500
+lr: 0.00005
+bs: 512
+ep: 100
+wd: 0.0002
+
+
+# add shell script
+# exp_name
+# seed
+# est_method
+# est_loss_func
+
+# miss_pattern
+# miss_rate
+
+# use_train_size

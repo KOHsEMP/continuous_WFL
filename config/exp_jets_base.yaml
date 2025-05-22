@@ -1,0 +1,47 @@
+
+dataset_name: jets
+main_dir: ../
+data_dir: ./data
+output_dir: ../output
+
+weaken_mode: missing
+weak_cols:
+  - d2_a1_b1_mmdt
+  - d2_b1_mmdt
+  - c1_b0_mmdt
+  - m2_b2_mmdt
+  - d2_b2_mmdt
+  - m2_b1_mmdt
+  - n2_b2_mmdt
+  - n2_b1_mmdt
+  - d2_a1_b2_mmdt
+  - zlogz
+  
+sample_size: -1
+test_rate: 0.5
+test_size_for_loop: 50000
+
+
+sm_k: 10
+sm_prop_latent: 0.5
+
+
+pred_arch: mlp
+pred_loss: logistic
+hd: 500
+lr: 0.00005
+bs: 512
+ep: 100
+wd: 0.0002
+
+
+# add shell script
+# exp_name
+# seed
+# est_method
+# est_loss_func
+
+# miss_pattern
+# miss_rate
+
+# use_train_size
